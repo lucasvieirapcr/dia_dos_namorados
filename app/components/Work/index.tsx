@@ -9,33 +9,29 @@ interface cardDataType {
     imgSrc: string;
     heading: string;
     subheading: string;
-    link: string;
 }
 
 const cardData: cardDataType[] = [
     {
-        imgSrc: '/images/Features/featureOne.svg',
-        heading: "Menu variations",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        imgSrc: '/images/Features/img01.png',
+        heading: "Início do Quiz",
+        subheading: "O quiz será composto por três módulos, cada um contendo 10 perguntas sobre o nosso relacionamento."
     },
     {
-        imgSrc: '/images/Features/featureTwo.svg',
-        heading: "Cooking warw",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        imgSrc: '/images/Features/image02.png',
+        heading: "Primeiro Módulo",
+        subheading: "Ao responder corretamente às 10 perguntas do primeiro módulo, você ganhará uma 'oncinha'"
     },
     {
-        imgSrc: '/images/Features/featureThree.svg',
-        heading: "Best chef",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        imgSrc: '/images/Features/ima02.png',
+        heading: "Segundo Módulo",
+        subheading: "Continuando, ao acertar as 10 perguntas do segundo módulo, você ganhará mais uma 'oncinha'"
     },
     {
-        imgSrc: '/images/Features/featureFour.svg',
-        heading: "Fast food",
-        subheading: "Sed ut perspiciatis unde omnis iste natus error",
-        link: 'Learn more'
+        imgSrc: '/images/Features/image04.png',
+        heading: "Terceiro Módulo",
+        subheading: "Finalizando com sucesso, você ganhará a última 'oncinha' e receberá uma questão bônus, podendo obter o melhor dos presentes"
+
     }
 
 ]
@@ -48,10 +44,10 @@ const Work = () => {
             <div className='mx-auto max-w-7xl py-40 px-6' id="about-section">
                 <div className='text-center mb-14' >
                     <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                        <h3 className='text-pink text-lg font-normal mb-3 ls-51 uppercase'>Features</h3>
+                        <h3 className='text-pink text-lg font-normal mb-3 ls-51 uppercase'>Quiz</h3>
                     </Fade>
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Get a many of interesting <br /> features.</p>
+                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Mostre o quanto você nos conhece<br/>Seu presente está a apenas algumas respostas de distância!</p>
                     </Fade>
                 </div>
 
@@ -61,13 +57,10 @@ const Work = () => {
                         {cardData.map((items, i) => (
                             <div className='card-b p-8 relative rounded-3xl' key={i}>
                                 <div className='work-img-bg rounded-full flex justify-center absolute top-[-50%] sm:top-[-40%] md:top-[-55%] lg:top-[-45%] left-[0%]'>
-                                    <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10} />
+                                    <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10}/>
                                 </div>
                                 <h3 className='text-2xl text-black font-semibold text-center mt-16'>{items.heading}</h3>
                                 <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>
-                                <div className='flex items-center justify-center'>
-                                    <Link href='/'><p className='text-center text-lg font-medium text-pink mt-2 hover-underline'>{items.link}<ChevronRightIcon width={20} height={20} /></p></Link>
-                                </div>
                             </div>
                         ))}
                     </Fade>

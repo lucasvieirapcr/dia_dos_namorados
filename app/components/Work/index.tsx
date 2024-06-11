@@ -38,16 +38,14 @@ const cardData: cardDataType[] = [
 
 const Work = () => {
     return (
-
-
         <div>
             <div className='mx-auto max-w-7xl py-40 px-6' id="about-section">
-                <div className='text-center mb-14' >
+                <div className='text-center mb-14'>
                     <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
                         <h3 className='text-pink text-lg font-normal mb-3 ls-51 uppercase'>Quiz</h3>
                     </Fade>
                     <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
-                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Mostre o quanto você nos conhece<br/>Seu presente está a apenas algumas respostas de distância!</p>
+                        <p className='text-3xl lg:text-5xl font-semibold text-lightgrey'>Mostre o quanto você nos conhece<br />Seu presente está a apenas algumas respostas de distância!</p>
                     </Fade>
                 </div>
 
@@ -57,7 +55,7 @@ const Work = () => {
                         {cardData.map((items, i) => (
                             <div className='card-b p-8 relative rounded-3xl' key={i}>
                                 <div className='work-img-bg rounded-full flex justify-center absolute top-[-50%] sm:top-[-40%] md:top-[-55%] lg:top-[-45%] left-[0%]'>
-                                    <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10}/>
+                                <Image src={items.imgSrc} alt={items.imgSrc} width={510} height={10} />
                                 </div>
                                 <h3 className='text-2xl text-black font-semibold text-center mt-16'>{items.heading}</h3>
                                 <p className='text-lg font-normal text-black text-center text-opacity-50 mt-2'>{items.subheading}</p>

@@ -116,7 +116,7 @@ export default class MultipleItems extends Component {
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
                                         <div className="absolute top-[50%] right-[2%]">
-                                            <Image src={'/images/Expert/Linkedin.svg'} alt="linkedin" width={220} height={120} />
+                                            <Image src={'/images/Logo/cora.png'} alt="linkedin" width={100} height={20} />
                                         </div>
                                     </div>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>

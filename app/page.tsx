@@ -4,6 +4,7 @@ import Cook from './components/Cook/index';
 import Expert from './components/Expert/index';
 import Gallery from './components/Gallery/index';
 import Newsletter from './components/Newsletter/Newsletter';
+import Decla from './components/Decla';
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <Cook />
       <Expert />
+      <Decla />
       <Gallery />
       <Newsletter />
     </main>

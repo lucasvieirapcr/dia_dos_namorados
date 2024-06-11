@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 
 
-const Cook = () => {
+const Decla = () => {
 
     return (
         <div className='relative' id="cook-section">
@@ -47,4 +47,4 @@ const Cook = () => {
     )
 }
 
-export default Cook;
+export default Decla;

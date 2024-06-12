@@ -10,9 +10,9 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Home', href: '#home-section', current: false },
-    { name: 'About us', href: '#about-section', current: false },
-    { name: 'Recipe', href: '#cook-section', current: false },
-    { name: 'Gallery', href: '#gallery-section', current: false },
+    { name: 'Sobre o jogo', href: '#about-section', current: false },
+    { name: 'Jogar Agora', href: '#cook-section', current: false },
+    { name: 'Galeria', href: '#gallery-section', current: false },
 ]
 
 

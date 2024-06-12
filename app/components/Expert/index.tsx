@@ -14,34 +14,34 @@ interface DataType {
 
 const postData: DataType[] = [
     {
-        profession: 'Senior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/boyone.svg',
+        profession: 'seu beijo',
+        name: 'Eu amo',
+        imgSrc: '/images/Expert/beijo.png',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        profession: 'sua cara de sono',
+        name: 'Eu amo',
+        imgSrc: '/images/Expert/dormindo (1).png',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/boytwo.svg',
+        profession: 'suas ideias',
+        name: 'Eu amo',
+        imgSrc: '/images/Expert/ideia.png',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        profession: 'suas gracinhas',
+        name: 'Eu amo',
+        imgSrc: '/images/Expert/gracinhas (2).png',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        profession: 'seu carinho',
+        name: 'Eu amo',
+        imgSrc: '/images/Expert/carinho (1).png',
     },
     {
-        profession: 'Junior Chef',
-        name: 'Shoo Thar Mien',
-        imgSrc: '/images/Expert/girl.png',
+        profession: 'nossa intimidade',
+        name: 'Eu amo',
+        imgSrc: '/images/Expert/intimidade (1).png',
     },
 ]
 
@@ -100,11 +100,11 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8'>
                     <div className="text-center">
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>EXPERT CHEFS</h2>
+                            <h2 className='text-pink text-lg font-normal mb-3 tracking-widest uppercase ls-51'>O que eu amo em voce</h2>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold text-black">
-                                Let&apos;s meet the expert.
+                                Falando coisas específicas mesmo você sabendo que te amo toda
                             </h3>
                         </Fade>
                     </div>
@@ -114,9 +114,10 @@ export default class MultipleItems extends Component {
                             <div key={i}>
                                 <div className='m-3 py-14 my-10 text-center'>
                                     <div className="relative">
-                                        <Image src={items.imgSrc} alt="gaby" width={362} height={262} className="inline-block m-auto" />
+                                        <Image src={items.imgSrc} alt="gaby" width={252} height={262} className="inline-block m-auto"  style={{ backgroundColor: '#F23041', borderRadius: '130px'}}></Image>
+                                        <br/>
                                         <div className="absolute top-[50%] right-[2%]">
-                                            <Image src={'/images/Logo/cora.png'} alt="linkedin" width={100} height={20} />
+                                            <Image src={'/images/Logo/cora.png'} alt="linkedin" width={140} height={20}  />
                                         </div>
                                     </div>
                                     <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>

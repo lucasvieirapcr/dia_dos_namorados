@@ -3,12 +3,12 @@ import Features from './components/Work/index';
 import Cook from './components/Cook/index';
 import Expert from './components/Expert/index';
 import Gallery from './components/Gallery/index';
-import Newsletter from './components/Newsletter/Newsletter';
 import Decla from './components/Decla';
 
 
 
-export default function Home() {
+
+export default function Home() { 
   return (
     <main>
       <Banner />
@@ -17,7 +17,7 @@ export default function Home() {
       <Expert />
       <Decla />
       <Gallery />
-      <Newsletter />
+
     </main>
   )
 }

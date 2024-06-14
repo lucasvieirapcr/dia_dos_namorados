@@ -33,7 +33,10 @@ const Cook = () => {
                             <p className='text-grey md:text-lg font-normal mb-10 text-start mt-2'>Bem-vinda ao nosso Quiz meu amor! Este é um jogo especial que preparei para celebrar nosso relacionamento de uma maneira divertida e de um jeitinho diferente do que estamos acostumados. As regras são simples: você só ganhará os presentes coringas se for bem no quiz. Se voce não for bem, ai fica para mim hehe</p>
                             <p className='text-grey md:text-lg font-normal mb-10 text-start mt-1'>Eu sei que você vai se sair bem meu amor, espero que voce goste, se divirta e relembre desses nossos momentos juntos, daquela época que ainda estavamos nos conhecendo e nos apaixonamos.</p>
                             <div className='flex align-middle justify-center md:justify-start'>
-                                <button className='text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6'>Jogar Agora!</button>
+                                <a href='https://perguntas-one.vercel.app/'>
+                                    <button className='text-xl font-medium rounded-full text-white py-5 px-6 bg-pink lg:px-10 mr-6'>Jogar Agora!</button>
+                                </a>
+                                
                             </div>
                         </Fade>
                     </div>

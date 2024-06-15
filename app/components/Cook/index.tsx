@@ -17,7 +17,7 @@ const Cook = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-12 my-16 space-x-5'>
 
                     <div className='col-span-6 flex justify-start'>
-                        <Image src="/images/Cook/foto01.jpg" alt="nothing" width={506} height={10} style={{ borderRadius: '25px' }}/>
+                        <Image src="/images/Cook/imageeem2.jpg" alt="nothing" width={506} height={10} style={{ borderRadius: '25px' }}/>
                     </div>
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
